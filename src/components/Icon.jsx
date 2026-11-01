@@ -11,6 +11,12 @@ const paths = {
       <path d="M22 8l-6 4 6 4z" />
     </>
   ),
+  audio: (
+    <>
+      <path d="M3 18v-6a9 9 0 0118 0v6" />
+      <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z" />
+    </>
+  ),
   doc: (
     <>
       <path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z" />
@@ -35,6 +41,20 @@ const paths = {
   facebook: (
     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
   ),
+  x: (
+    <>
+      <path d="M4 4l11.7 16H20L8.3 4z" />
+      <path d="M4 20l6.8-6.8M13.2 10.8L20 4" />
+    </>
+  ),
+  tiktok: <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5" />,
+  linkedin: (
+    <>
+      <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </>
+  ),
   mail: (
     <>
       <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -47,6 +67,7 @@ const paths = {
       <circle cx="12" cy="10" r="3" />
     </>
   ),
+  arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
 };
 
 export default function Icon({ name, size = 34 }) {
