@@ -1,7 +1,5 @@
 /* ---------- Mont font ----------
-   Mont is a licensed font, so the font files are not bundled.
-   Put your licensed files in public/fonts/ with these names and Mont loads
-   automatically. Until then the site uses Poppins. */
+*/
 @font-face {
   font-family: "Mont";
   src: local("Mont Regular"), local("Mont-Regular"),
