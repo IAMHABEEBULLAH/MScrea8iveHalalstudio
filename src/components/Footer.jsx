@@ -1,3 +1,4 @@
+import Socials from "./Socials.jsx";
 import { brand, contact } from "../data.js";
 
 export default function Footer() {
@@ -9,6 +10,7 @@ export default function Footer() {
           <p>{brand.tagline}</p>
           <p>{contact.location}</p>
         </div>
+        <Socials variant="blue" />
       </div>
     </footer>
   );
