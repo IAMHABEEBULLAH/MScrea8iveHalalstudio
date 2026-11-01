@@ -1,4 +1,4 @@
-import { brand, navLinks } from "../data.js";
+import { brand, navLinks, whatsappLink } from "../data.js";
 
 export default function Header() {
   return (
@@ -13,7 +13,12 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a href="#contact" className="btn btn--blue">
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn--blue"
+          >
             Start a project
           </a>
         </nav>
