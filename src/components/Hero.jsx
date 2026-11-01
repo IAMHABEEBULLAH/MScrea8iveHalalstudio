@@ -1,4 +1,5 @@
 import Rings from "./Rings.jsx";
+import { whatsappLink } from "../data.js";
 
 export default function Hero() {
   return (
@@ -15,16 +16,21 @@ export default function Hero() {
           <span className="highlight">Islamic Principles.</span>
         </h1>
         <p className="hero__lead">
-          We help businesses, brands, and individuals bring their ideas to life
-          through design, video, audio, content, and social media, with honesty,
-          modesty, and trustworthiness.
+          From branding and design to content creation and social media
+          management, MS Cre8ive helps you communicate your value through
+          creative solutions guided by Islamic principles.
         </p>
         <div className="hero__actions">
-          <a href="#contact" className="btn btn--yellow btn--lg">
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn--yellow btn--lg"
+          >
             Start a project
           </a>
-          <a href="#services" className="btn btn--outline-white btn--lg">
-            See what we do
+          <a href="#/portfolio" className="btn btn--outline-white btn--lg">
+            View our work
           </a>
         </div>
       </div>
